@@ -1,6 +1,4 @@
-<script>
-    function darkModeFunc() {
-        var element = document.body;
-        element.classList.toggle("dark-mode");
-    }
-</script>
+function darkModeFunc() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+}
