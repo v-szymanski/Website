@@ -3,7 +3,7 @@ html {
 }
 
 .darkModeContainer2 {
-    background-image: url("WaveDark.svg");
+    background-image: url("/WaveDark.svg");
     background-position: top;
     background-position: right;
     height: 100vh;
@@ -140,7 +140,7 @@ li a {
 }
 
 .darkModeContainer{
-    background-image: url("Wave.svg");
+    background-image: url("/Wave.svg");
     background-position: top;
     background-position: right;
     height: 100vh;
