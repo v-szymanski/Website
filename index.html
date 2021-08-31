@@ -12,43 +12,50 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato&family=Limelight&display=swap" rel="stylesheet">
-
-    <style>
-        body {
-            font-size: 100%;
-            color: #737373;
-            background-color: white;
-            margin-left: 10%;
-            margin-right: 10%;
-        }
-        
-        .dark-mode {
-            background-color: #454545;
-            color: #E4E4E4;
-        }
-
-        h1 {
-            font-size: 5em;
-            font-family: 'Limelight', cursive;
-            margin-bottom: 0%;
-        }
-
-        h3 {
-            font-size: 2em;
-            font-family: 'Lato', sans-serif;
-            margin-top: 1%;
-        }
-
-        p {
-            font-size: 1em;
-        }
-        </style>
-
 </head>
 
 <body>
-    <h1>hi, i'm vanessa.</h1>
-    <h3>I am a designer</h3>
-    <button type="button" onclick="darkModeFunc()">Toggle dark mode</button>
+    <div class="darkModeContainer">
+    </div>
+    <div class="darkModeContainer2">
+    </div>
+    
+    <div class="background">
+        <div class="header">
+            <ul style="font-family: 'Lato', sans-serif">
+                <li role="img" aria-label="VS" style="float:left"><a href="index.html"><img class="faviconpic" src="/Images/VS Icon.png"></a></li>
+                <li role="img" aria-label="moon"><a onclick="darkModeFunc()"><img class="darkmodeicon" src="/Images/Darkmodeicon.png"></a></li>
+                <li><a href="https://drive.google.com/file/d/177h9IKO2FMgiAkwfD8N2Vak57CApNIWh/view?usp=sharing" target="blank">resume</a></li>
+                <li><a href="about.html">about</a></li>
+                <li><a href="#section1">projects</a></li>
+            </ul>
+        </div>
+
+        <div class="body">
+            <div class="left-container">
+                <h1>hi, i'm vanessa<span style="color: #E2A545">.</span></h1>
+                <h3>I am a <span style="color: #E2A545">designer</span> with<br>an <span style="color: #E2A545">architectural mind</span></h3>
+                <h4>...who is passionate about the overlap<br>between technology and art</h4>
+                <!--<button type="button" class="button">button</button><br>-->
+            </div>
+            <div class="right-container">
+                <img class="prof-pic" src="/Images/Homescreen image.png" alt="Photo of me">
+            </div>
+            <div class="scroll-container">
+                <a href="#section1"><p role="img" aria-label="down-arrow"><img class="scrollicon" src="/Images/scroll icon.png"></p></a>
+            </div>
+
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <a name="section1"><p>Projects</p></a>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+            <br><br><br><br><br><br><br><br>
+            </div>
+
+        <div class="footer">
+            <p>Designed and coded with 🧡 by Vanessa Szymanski</p>
+        </div>
+    </div>
+    
 </body>
 </html>
