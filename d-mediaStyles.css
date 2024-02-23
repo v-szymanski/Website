@@ -82,12 +82,20 @@
     body {
         overflow-x: auto; /* On mobile maybe should allow this just in case? */
     }
+
+    a.nav-link {
+        font-size: 0.8em;
+    }
+
+    li.nav-item {
+        margin-right: 16px;
+    }
     
     .landing-page {
-        width: 80vw;
+        width: 75vw;
         display: block;
-        /* padding-left: 5vw;
-        padding-right: 5vw; */
+        padding-left: 5vw;
+        padding-right: 5vw;
         padding-top: 15vw;
     }
     
@@ -114,6 +122,6 @@
 
     .projects-overview-landing-page {
         width: 75vw;
-        margin-top: 0vh;
+        margin-top: 5vh;
     }
 }
