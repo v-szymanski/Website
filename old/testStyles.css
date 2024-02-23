@@ -1,0 +1,162 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: flex;
+    color: #404040;
+    background-color: white;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px;
+}
+
+.body {
+    margin: 7%; /* This is necessary so the wave still goes to screen extents */
+}
+
+.background{
+    top: 0;
+    position: absolute;
+}
+
+.hidden{
+    display:none;
+}
+
+/* Landing page */
+
+.landingPageContainer {
+    display: flex;
+    align-items: center;
+    height: 90vh;
+}
+
+.left-container{
+    float: left;
+    width: 40%;
+    text-align: left;
+}
+
+.right-container{
+    float: right;
+    width: 50%;
+    margin-right: 10%;
+    text-align: right;
+}
+
+/* Header bar */
+.header{
+    height: 10%;
+    width: 100%;
+    padding-left: 7%;
+    padding-right: 6%;
+    /* top right bottom left */
+    /* justify-content: space-between;  */
+    position: fixed; /* Fix the position of the header */
+    top: 0; /* Position it at the top of the viewport */
+    z-index: 1000; /* Set a high z-index value to ensure it appears above other content */
+    /* background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.5), transparent); */
+    /* backdrop-filter: blur(5px); Add blur effect */
+}
+
+.header ul {
+    display: flex; /* Ensure the ul is also a flex container */
+    align-items: center; /* Vertically center align items */
+}
+
+.header li {
+    font-size: 1em;
+    line-height: 1em; /* Ensure the line height matches the font size */
+}
+
+.header ul li a {
+    color: #404040;
+    font-size: 1em; /* Set font size to 1em */
+}
+
+.header ul li img {
+    height: 2em; /* Set height of icons to 1em */
+    width: auto;
+}
+
+.header.scrolled {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.5), transparent);
+    backdrop-filter: blur(5px); /* Add blur effect */
+}
+
+.links{
+    /* float: right; */
+    /* left: 50%; */
+}
+
+.scroll-container {
+    float: left;
+    width: 100%;
+    height: 100%;
+    margin-bottom: 2%;
+    margin-top: -10%;
+     /* Bottom margin of 15% */
+}
+
+ul {
+    list-style-type: none;
+    padding: 1% 5% 5% 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 87%;
+  }
+
+li {
+    float: right;
+    padding-right: 5%;
+}
+
+/* Footer */
+.footer{
+    margin: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+@media only screen and (max-width: 767px) { /*mobile - smaller than an iPad*/
+    .container {
+        background-image: none;
+    }
+    .container2 {
+        background-image: none;
+    }
+
+    .prof-pic {
+        padding-top: 7%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) { /*tablet - smaller than most laptops*/
+    .container {
+        
+    }
+    .container2 {
+        
+    }
+
+    .prof-pic {
+        padding-top: 7%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) { /*laptop - smaller than a monitor*/
+    .container {
+        
+    }
+    .container2 {
+
+    }
+    
+    .prof-pic {
+        padding-top: 7%;
+    }
+}

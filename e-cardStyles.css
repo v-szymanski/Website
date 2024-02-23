@@ -1,0 +1,40 @@
+.card {
+    display: flex;
+    align-items: center; /* Vertically center content */
+    background-color: #fff8ec;
+    border: 0.1px solid #9E6B13;
+    border-radius: 12px;
+    box-shadow: 2px 2px 5px #9E6B13;
+    padding: 24px;
+    height: fit-content;
+    margin-bottom: 10vh;
+  }
+  
+  .card img {
+    width: 50%;
+    height: auto;
+    margin-right: 2vw; /* Spacing between image and content */
+  }
+  
+  .card-content {
+    flex: 1; /* Take remaining space */
+  }
+  
+  .tags {
+    display: inline-block;
+    padding: 5px 10px;
+    margin-top: 0px;
+    margin-bottom: 8px;
+
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.75em;
+    color: #404040; /* text color */
+
+    border-radius: 20px; /* Adjust as needed for the desired roundness */
+    background-color: #f6e2c5; /* background color */
+  }
+  
+  .tags span {
+    margin-right: 10px; /* Spacing between tags */
+  }
+  

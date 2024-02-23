@@ -1,0 +1,82 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.container {
+    background-image: url("/Images/Wave.svg");
+    background-position: top right;
+    height: 100vh;
+    width: 100vw;
+    margin: 0px;
+    z-index: -20;
+}
+
+.background {
+    top: 0;
+    position: absolute;
+}
+
+.landing-page {
+    height: 91vh;
+    display: flex;
+    justify-content: center; /* Center content horizontally */
+    align-items: center; /* Center content vertically */
+}
+
+.left-column {
+    flex: 1;
+    width: 35vw;
+    padding-left: 5vw;
+    padding-right: 10vw;
+}
+
+.right-column {
+    flex: 1;
+    padding-left: 10vw;
+    padding-right: 5vw;
+}
+
+.landing-pg-photo {
+    min-width: 15vw;
+    max-width: 22vw;
+    height: auto;
+    max-height: 80vh;
+}
+
+.projects-overview-landing-page {
+    padding-top: 12vh;
+    padding-bottom: 2vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    margin-top: 9vh;
+}
+
+.footer {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    background-color: #fff8ec;
+}
+
+.footer-icon-item {
+    height: auto;
+    padding-left: 0vw;
+}
+
+.footer-icons-list {
+    list-style-type: none;
+    display: flex;
+    gap: 16px;
+    padding-left: 0vw;
+}
+
+.footer-icon {
+    height: auto;
+    max-width: 48px;
+    padding-left: 0vw;
+}

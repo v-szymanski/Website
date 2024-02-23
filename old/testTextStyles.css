@@ -1,0 +1,63 @@
+li a {
+    display: block;
+    color: #404040;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', cursive;
+    margin-bottom: 0%;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 1.5em;
+    font-family: 'DM Serif Display', cursive;
+    margin-bottom: 0%;
+    font-weight: 600;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+h6 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    margin-top: 2%;
+}
+
+p {
+    font-size: 0.95em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.active {
+    text-decoration: underline;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}

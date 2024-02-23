@@ -1,0 +1,38 @@
+/* Making sure all text is f0f0f0 in darkm mode */
+.dark-mode .body {
+    color: #f0f0f0;
+}
+
+.dark-mode .header ul li a {
+    color: #f0f0f0;
+}
+
+.dark-mode .li a {
+    color: #f0f0f0;
+}
+
+/* Toggle between light and dark mode - hover state */
+.darkmodeicon:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+/* Backgrounds for light and dark mode */
+.dark-mode {
+    background-color: #454545;
+    /*background-image: url("WaveDark.svg");*/
+    color: #f0f0f0;
+}
+
+.darkModeContainer {
+    background-image: url("/Images/Wave.svg");
+    background-position: top right;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    z-index: -20;
+}
+
+.dark-mode .darkModeContainer {
+    background-image: url("/Images/WaveDark.svg");
+}

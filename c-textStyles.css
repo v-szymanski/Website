@@ -1,0 +1,58 @@
+h1 {
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', cursive;
+    font-weight: 500;
+    color: #404040;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-size: 2em;
+    font-family: 'DM Serif Display', cursive;
+    font-weight: 500;
+    color: #404040;
+    margin-top: 0px;
+}
+
+h3 {
+    font-size: 1.25em;
+    font-family: 'DM Serif Display', cursive;
+    font-weight: 200;
+    color: #404040;
+    margin-top: 0px;
+}
+
+h4 {
+    font-size: 1.25em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #404040;
+    margin-top: 0px;
+}
+
+h5 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: #404040;
+    margin-top: 0px;
+}
+
+h6 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #404040;
+    margin-top: 0px;
+}
+
+p {
+    font-size: 14px;
+    font-family: 'Poppins', sans-serif;
+    color: #404040;
+}
+
+.email-link {
+    color: #404040; /* Set text color to #404040 */
+}

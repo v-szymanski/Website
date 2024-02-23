@@ -1,0 +1,236 @@
+html {
+    scroll-behavior: smooth;
+}
+
+.background{
+    top: 0;
+    position: absolute;
+}
+
+.hidden{
+    display:none;
+}
+
+.dark-mode {
+    background-color: #454545;
+    /*background-image: url("WaveDark.svg");*/
+    color: #E4E4E4;
+}
+
+body {
+    display: flex;
+    color: #737373;
+    background-color: white;
+    height: 100%;
+    margin: 0px;
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 2em;
+    font-family: 'Nunito', cursive;
+    margin-bottom: 0%;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 200;
+    margin-top: 1%;
+    margin-bottom: 0%;
+}
+
+h4 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+h6 {
+    font-size: 1em;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    margin-top: 2%;
+}
+
+p {
+    font-size: 0.95em;
+    font-family: 'Poppins', sans-serif;
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+    padding: 1% 5% 5% 0%;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 87%;
+  }
+
+li {
+    float: right;
+    padding-right: 5%;
+}
+
+li a {
+    display: block;
+    color: #737373;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.active {
+    text-decoration: underline;
+}
+ 
+.left-container{
+    float: left;
+    width: 38%;
+    margin-right: 12%;
+    margin-top: -1%;
+    padding: 0 0 5% 0;
+    /*top right bottom left*/
+}
+
+.right-container{
+    float: right;
+    width: 50%;
+}
+
+.scroll-container {
+    /* float: left;
+    width: 100%;
+    height: auto;
+    margin-top: 2%; */
+    position: absolute;
+    margin: auto;
+    margin-top: 80vh;   
+}
+
+.prof-pic{
+    width: 50%;
+    height: auto;
+    padding-left: 15%;
+    padding-top: 2%;
+}
+
+.faviconpic {
+    width: 40%;
+    height: auto;
+}
+
+.scrollicon {
+    width: 3%;
+    padding: 0 50%;
+    height: auto;
+}
+
+.darkmodeicon:hover {
+    opacity: 0.8;
+    cursor: pointer;
+    /* Add any other styles you want for the hover state */
+}
+
+.darkModeContainer {
+    background-image: url("/Images/Wave.svg");
+    background-position: top right;
+    height: 100vh;
+    width: 100%;
+    margin: 0px;
+    z-index: -20;
+}
+
+.dark-mode .darkModeContainer {
+    background-image: url("/Images/WaveDark.svg");
+}
+
+.header{
+    height: 5%;
+    width: 87%;
+    margin: 5% 6% 5% 7%;
+    background-color: transparent;
+    text-align: center;
+}
+
+.header li{
+    font-size: 1em;
+    line-height: 1em; /* Ensure the line height matches the font size */
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: #737373;
+    font-size: 1em; /* Set font size to 1em */
+}
+
+.header ul li img {
+    height: 2em; /* Set height of icons to 1em */
+    width: auto;
+}
+
+.header.scrolled {
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    backdrop-filter: blur(10px); /* Add blur effect */
+}
+
+.body {
+    margin: 7%;
+}
+
+.footer{
+    margin: 5%;
+    margin-left: 7%;
+    margin-right: 7%;
+}
+
+@media only screen and (max-width: 767px) { /*mobile - smaller than an iPad*/
+    .container {
+        background-image: none;
+    }
+    .container2 {
+        background-image: none;
+    }
+
+    .prof-pic {
+        padding-top: 7%;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) { /*tablet - smaller than most laptops*/
+    .container {
+        
+    }
+    .container2 {
+        
+    }
+
+    .prof-pic {
+        padding-top: 7%;
+    }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) { /*laptop - smaller than a monitor*/
+    .container {
+        
+    }
+    .container2 {
+
+    }
+    
+    .prof-pic {
+        padding-top: 7%;
+    }
+}

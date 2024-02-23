@@ -1,0 +1,119 @@
+@media only screen and (max-width: 800px) { /*501-800*/
+    .container {
+        background-image: none;
+    }
+
+    .landing-page {
+        height: fill;
+    }
+
+    .left-column {
+        width: 50vw;
+        padding-left: 5vw;
+        padding-right: none;
+    }
+
+    .right-column {
+        margin-top: 5vh;
+        padding-left: none;
+        padding-right: none;
+    }
+
+    .landing-pg-photo {
+        min-width: 70%;
+        max-width: 90%;
+        height: auto;
+        max-height: 50%;
+    }
+
+    .projects-overview-landing-page {
+        margin-top: -10vh;
+    }
+
+    h1 {
+        font-size: 2em;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.15em;
+    }
+
+    h4 {
+        font-size: 1.15em;
+    }
+
+    .card {
+        display: block;
+        width: 75vw;
+        padding: 5vw;
+    }
+
+    .card img { /* Beware this affects the button icons too */
+        width: 100%;
+        height: auto;
+        margin-bottom: 20px;
+        margin-right: 0px;
+    }
+      
+    .card-content {
+        width: 100%;
+        height: auto;
+    }
+
+    .project-preview-btns {
+        display: inline-flex;
+        width: fit-content;
+        align-items: center;
+        vertical-align: center;
+    }
+
+    .project-preview-btns img {
+        width: 24px;
+        height: 24px;
+        margin-bottom: 0px;
+    }
+}
+
+@media only screen and (max-width: 500px) { /*mobile - smaller than an iPad*/
+    body {
+        overflow-x: auto; /* On mobile maybe should allow this just in case? */
+    }
+    
+    .landing-page {
+        width: 80vw;
+        display: block;
+        /* padding-left: 5vw;
+        padding-right: 5vw; */
+        padding-top: 15vw;
+    }
+    
+    .left-column {
+        width: 100%;
+        padding-left: none;
+        padding-right: none;
+        flex: none;
+    }
+    
+    .right-column {
+        width: 100%;
+        padding-left: none;
+        padding-right: none;
+        flex: none;
+    }
+    
+    .landing-pg-photo {
+        min-width: 50%;
+        max-width: 75%;
+        height: auto;
+        max-height: 50%;
+    }
+
+    .projects-overview-landing-page {
+        width: 75vw;
+        margin-top: 0vh;
+    }
+}
