@@ -90,7 +90,27 @@
     li.nav-item {
         margin-right: 16px;
     }
+
+    /* case studies */
+
+    .header-image {
+        padding-bottom: 5vh;
+    }
+
+    .row {
+        display: block;
+    }
+
+    .two-column {
+        flex: 100%;
+        padding-top: 0vh;
+    }
+
+    .one-column {
+        padding-top: 0vh;
+    }
     
+    /* landing page */
     .landing-page {
         width: 75vw;
         display: block;

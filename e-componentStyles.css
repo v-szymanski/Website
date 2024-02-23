@@ -1,3 +1,5 @@
+/* CARDS AND TAGS */
+
 .card {
     display: flex;
     align-items: center; /* Vertically center content */
@@ -14,6 +16,7 @@
     width: 50%;
     height: auto;
     margin-right: 2vw; /* Spacing between image and content */
+    border-radius: 12px;
   }
   
   .card-content {
@@ -38,3 +41,36 @@
     margin-right: 10px; /* Spacing between tags */
   }
   
+
+  
+  /* BUTTONS */
+
+  .project-preview-btns {
+    display: inline-flex;
+    align-items: center;
+    vertical-align: center;
+    width: auto;
+    background-color: white;
+    border: 1.5px solid #9E6B13;
+    padding: 6px 16px; /* Adjust padding as needed */
+    border-radius: 20px; /* Rounded corners */
+    font-family: 'DM Serif Display', cursive;
+    font-size: 1em;
+    font-weight: 200;
+    color: #9E6B13; /* White text */
+  }
+  
+.project-preview-btns span {
+    margin-right: 8px; /* Spacing between text and icon */
+}
+
+.project-preview-btns img {
+    width: 24px;
+    height: 24px;
+    margin-right: 0px;
+}
+
+.project-preview-btns:hover {
+    box-shadow: 1px 1px 2px #9E6B13;
+    cursor: pointer;
+}

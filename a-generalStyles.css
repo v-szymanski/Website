@@ -6,6 +6,36 @@ body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
 }
 
+
+/* Case Study Pages */
+
+.row {
+    display: flex;
+}
+  
+  /* Create two equal columns that sits next to each other */
+.two-column {
+    flex: 50%;
+    padding: 5vh 5vw;
+}
+
+.one-column {
+    flex: 100%;
+    padding: 5vh 5vw;
+}
+
+.header-image {
+    flex: 100%;
+    padding: 0px;
+}
+
+.case-study-cover-pics {
+    width: 100%;
+    height: auto;
+}
+
+/* Landing Page */
+
 .container {
     background-image: url("/Images/Wave.svg");
     background-position: top right;
