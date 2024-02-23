@@ -47,10 +47,6 @@ a.nav-link:hover {
     opacity: 80%;
 }
 
-a.nav-link:visited {
-    color: #404040; /* Color after link is visited */
-}
-
 a.nav-link:focus,
 a.nav-link:active {
     text-decoration: underline; /* Underline on active/click */
