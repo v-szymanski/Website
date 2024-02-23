@@ -5,6 +5,7 @@
 
     .landing-page {
         height: fill;
+        margin-top: 9vh;
     }
 
     .left-column {
@@ -14,7 +15,6 @@
     }
 
     .right-column {
-        margin-top: 5vh;
         padding-left: none;
         padding-right: none;
     }
@@ -122,6 +122,6 @@
 
     .projects-overview-landing-page {
         width: 75vw;
-        margin-top: 5vh;
+        margin-top: 10vh;
     }
 }
