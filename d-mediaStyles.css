@@ -46,6 +46,10 @@
         font-size: 1.15em;
     }
 
+    .row {
+        display: block;
+    }
+
     .card {
         display: block;
         width: 75vw;
@@ -101,12 +105,12 @@
         display: block;
     }
 
-    .two-column {
-        flex: 100%;
+    .one-column {
         padding-top: 0vh;
     }
-
-    .one-column {
+    
+    .two-column {
+        flex: 100%;
         padding-top: 0vh;
     }
     

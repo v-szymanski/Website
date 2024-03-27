@@ -1,76 +1,129 @@
-/* CARDS AND TAGS */
-
+/* CARDS */
+/* general card properties */
 .card {
-    display: flex;
-    align-items: center; /* Vertically center content */
-    background-color: #fff8ec;
-    border: 0.1px solid #9E6B13;
-    border-radius: 12px;
-    box-shadow: 2px 2px 5px #9E6B13;
-    padding: 24px;
-    height: fit-content;
-    margin-bottom: 10vh;
-  }
-  
-  .card img {
-    width: 50%;
-    height: auto;
-    margin-right: 2vw; /* Spacing between image and content */
-    border-radius: 12px;
-  }
-  
-  .card-content {
-    flex: 1; /* Take remaining space */
-  }
-  
-  .tags {
-    display: inline-block;
-    padding: 5px 10px;
-    margin-top: 0px;
-    margin-bottom: 8px;
+  display: flex;
+  align-items: center; /* Vertically center content */
+  border-radius: 12px;
+  padding: 24px 24px;
+  height: fit-content;
+  margin-bottom: 10vh; /* Spacing between cards */
+}
 
-    font-family: 'Poppins', sans-serif;
-    font-size: 0.75em;
-    color: #404040; /* text color */
+.card img {
+  width: 40%;
+  height: auto;
+  margin-right: 4vw; /* Spacing between image and content */
+  border-radius: 12px;
+}
 
-    border-radius: 20px; /* Adjust as needed for the desired roundness */
-    background-color: #f6e2c5; /* background color */
-  }
-  
-  .tags span {
-    margin-right: 10px; /* Spacing between tags */
-  }
-  
+.card-content {
+  flex: 1; /* Take remaining space */
+}
 
-  
-  /* BUTTONS */
+/* customized - diff card colors */
+.blue-card {
+  background-color: #ECF6FF;
+  border: 0.1px solid #457DB0;
+  box-shadow: 2px 2px 5px #457DB0;
+}
 
-  .project-preview-btns {
-    display: inline-flex;
-    align-items: center;
-    vertical-align: center;
-    width: auto;
-    background-color: white;
-    border: 1.5px solid #9E6B13;
-    padding: 6px 16px; /* Adjust padding as needed */
-    border-radius: 20px; /* Rounded corners */
-    font-family: 'DM Serif Display', cursive;
-    font-size: 1em;
-    font-weight: 200;
-    color: #9E6B13; /* White text */
-  }
+.orange-card {
+  background-color: #fff8ec;
+  border: 0.1px solid #9E6B13;
+  box-shadow: 2px 2px 5px #9E6B13;
+}
+
+.pink-card {
+  background-color: #F9F3F3;
+  border: 0.1px solid #BB6F6F;
+  box-shadow: 2px 2px 5px #BB6F6F;
+}
+
+/* TAGS */
+/* general tag properties */
+.tags {
+  margin-bottom: 0px; /* Initial margin bottom */
+  margin-top: 2vh;
+  line-height: 1; /* Reset line-height to avoid extra spacing */
+}
+
+.tag {
+  display: inline-block;
+  margin: 0 8px 8px 0; /* Margin between tags */
+  padding: 4px 12px;
+  line-height: normal; /* Reset line-height for tag content */
+  border-radius: 20px; /* Adjust as needed for the desired roundness */
+
+  font-family: 'Spline Sans', sans-serif;
+  font-size: 0.75em;
+  color: #404040; /* text color */
+}
+
+/* customized - diff tag colors */
+.blue-tag {
+  background-color: #C3DCF3; /* background color */
+}
+
+.orange-tag {
+  background-color: #f6e2c5; /* background color */
+}
+
+.pink-tag {
+  background-color: #F6CEC5; /* background color */
+}
+
+/* BUTTONS */
+/* general button properties */
+.project-preview-btns {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: center;
+  width: auto;
+  background-color: white;
+  padding: 4px 16px; /* Adjust padding as needed */
+  border-radius: 20px; /* Rounded corners */
+  font-family: 'Spline Sans', sans serif;
+  font-size: 0.85em;
+  font-weight: 400;
+}
   
 .project-preview-btns span {
-    margin-right: 8px; /* Spacing between text and icon */
+  margin-right: 8px; /* Spacing between text and icon */
 }
 
 .project-preview-btns img {
-    width: 24px;
-    height: 24px;
-    margin-right: 0px;
+  width: 24px;
+  height: 24px;
+  margin-right: 0px;
 }
 
-.project-preview-btns:hover {
-    box-shadow: 1px 1px 2px #9E6B13;
-    cursor: pointer;
+/* customized - diff button colors */
+.blue-btn {
+  border: 1.5px solid #457DB0;
+  color: #457DB0;
+}
+
+.orange-btn {
+  border: 1.5px solid #9E6B13;
+  color: #9E6B13;
+}
+
+.pink-btn {
+  border: 1.5px solid #BB6F6F;
+  color: #BB6F6F;
+}
+
+.blue-btn:hover {
+  box-shadow: 1px 1px 2px #457DB0;
+  cursor: pointer;
+}
+
+.orange-btn:hover {
+  box-shadow: 1px 1px 2px #9E6B13;
+  cursor: pointer;
+}
+
+.pink-btn:hover {
+  box-shadow: 1px 1px 2px #BB6F6F;
+  cursor: pointer;
 }

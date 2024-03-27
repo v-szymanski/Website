@@ -8,30 +8,86 @@ body {
 
 
 /* Case Study Pages */
-
+  
 .row {
-    display: flex;
+display: grid;
+grid-template-columns: repeat(12, 1fr); /* Define 12 columns */
+gap: 5vw; /* Set gap between grid items */
+margin: 5vh 5vw;
 }
   
-  /* Create two equal columns that sits next to each other */
-.two-column {
-    flex: 50%;
-    padding: 5vh 5vw;
+/* Create columns that sit next to each other */
+.whole-column {
+    grid-column: span 12;
 }
 
-.one-column {
-    flex: 100%;
-    padding: 5vh 5vw;
+.ten-twelfth-column {
+    grid-column: span 10;
+}
+
+.three-quarter-column {
+    grid-column: span 9;
+}
+
+.seven-twelfth-column {
+    grid-column: span 7;
+}
+
+.one-half-column {
+    grid-column: span 6;
+}
+
+.five-twelfth-column {
+    grid-column: span 5;
+}
+
+.one-third-column {
+    grid-column: span 4;
+}
+
+.one-quarter-column {
+    grid-column: span 3;
+}
+
+.two-twelfth-column {
+    grid-column: span 2;
+}
+
+.one-twelfth-column {
+    grid-column: span 1;
+}
+
+.row-in-column {
+    padding-top: 24px;
 }
 
 .header-image {
     flex: 100%;
-    padding: 0px;
 }
 
 .case-study-cover-pics {
     width: 100%;
     height: auto;
+}
+
+.case-study-inline-pics {
+    width: 100%;
+    height: auto;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+}
+
+.about-pic {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.chapter-link {
+    font-size: 1em;
+    font-family: 'Spline Sans', sans-serif;
+    font-weight: 500;
+    color: #848484;
 }
 
 /* Landing Page */
