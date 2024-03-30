@@ -39,7 +39,7 @@ h3 {
 
 h4 {
     font-size: 1.25em;
-    font-family: 'Newsreader', sans-serif;
+    font-family: 'Newsreader', cursive;
     font-weight: 600;
     color: #404040;
     margin-top: 0px;
@@ -48,7 +48,7 @@ h4 {
 
 h5 {
     font-size: 1em;
-    font-family: 'Spline Sans', sans-serif;
+    font-family: 'Spline Sans', cursive;
     font-weight: 600;
     color: #404040;
     margin-top: 0px;
@@ -77,6 +77,7 @@ ul {
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 4px;
+    margin-left: 16px;
     line-height: 150%;
     color: #404040;
     padding: 0;

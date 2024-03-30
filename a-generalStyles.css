@@ -80,7 +80,6 @@ margin: 5vh 5vw;
 .about-pic {
     width: 100%;
     height: auto;
-    border-radius: 8px;
 }
 
 .chapter-link {
@@ -147,6 +146,7 @@ margin: 5vh 5vw;
     padding-bottom: 5vh;
     padding-left: 5vw;
     padding-right: 5vw;
+    width: 100%;
     background-color: #fff8ec;
 }
 
@@ -159,6 +159,7 @@ margin: 5vh 5vw;
     list-style-type: none;
     display: flex;
     gap: 16px;
+    margin-left: 0;
     padding-left: 0vw;
 }
 
