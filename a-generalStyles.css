@@ -80,6 +80,8 @@ margin: 5vh 5vw;
 .about-pic {
     width: 100%;
     height: auto;
+    border: 1.5px solid #9E6B13;
+    border-radius: 4px;
 }
 
 .chapter-link {
@@ -88,6 +90,8 @@ margin: 5vh 5vw;
     font-weight: 500;
     color: #848484;
 }
+
+
 
 /* Landing Page */
 
@@ -140,6 +144,18 @@ margin: 5vh 5vw;
     padding-right: 5vw;
     margin-top: 9vh;
 }
+
+
+
+/* Separator line */
+
+.separator {
+    height: 1px;
+    background-color: #d3d3d3;
+}
+
+
+/* Footer */
 
 .footer {
     padding-top: 5vh;

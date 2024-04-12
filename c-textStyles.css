@@ -1,84 +1,86 @@
 p {
     font-size: 14px;
-    font-family: 'Spline Sans', sans-serif;
-    font-stretch: ultra-expanded;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
+    color: #505050;
     margin-top: 0px;
     margin-bottom: 4px;
     line-height: 150%;
-    color: #404040;
 }
 
 h1 {
     font-size: 2.5em;
-    font-family: 'Newsreader', cursive;
-    font-weight: 600;
-    color: #404040;
+    font-family: 'DM Serif Display', cursive;
+    font-weight: 400;
+    color: #505050;
     margin-top: 0px;
     margin-bottom: 16px;
 }
 
 h2 {
-    font-size: 2em;
-    font-family: 'Newsreader', cursive;
-    font-weight: 600;
-    color: #404040;
+    font-size: 1.75em;
+    font-family: 'DM Serif Display', cursive;
+    font-weight: 400;
+    letter-spacing: 0.25px;
+    color: #505050;
     margin-top: 0px;
     margin-bottom: 16px;
 }
 
 h3 {
-    font-size: 1.25em;
-    font-family: 'Newsreader', cursive;
+    font-size: 1.15em;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 600;
-    color: #404040;
+    color: #505050;
     margin-top: 0px;
     margin-bottom: 12px;
     line-height: 125%;
 }
 
 h4 {
-    font-size: 1.25em;
-    font-family: 'Newsreader', cursive;
-    font-weight: 600;
-    color: #404040;
+    font-size: 1em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 400;
+    color: #505050;
     margin-top: 0px;
     margin-bottom: 12px;
+    line-height: 125%;
 }
 
 h5 {
     font-size: 1em;
-    font-family: 'Spline Sans', cursive;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 600;
-    color: #404040;
+    color: #505050;
     margin-top: 0px;
     margin-bottom: 4px;
+    line-height: 125%;
 }
 
 h6 {
-    font-size: 12px;
-    font-family: 'Spline Sans', sans-serif;
-    font-stretch: ultra-expanded;
-    font-weight: 500;
+    font-size: 0.8em;
+    font-family: 'DM Sans', sans-serif;
+    font-weight: 700;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
     color: #848484;
     margin-top: 0px;
     margin-bottom: 4px;
 }
 
 .email-link {
-    color: #404040; /* Set text color to #404040 */
+    color: #505050; /* Set text color to #404040 */
 }
 
 ul {
     list-style-type: disc;
     font-size: 14px;
-    font-family: 'Spline Sans', sans-serif;
-    font-stretch: ultra-expanded;
+    font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 4px;
     margin-left: 16px;
     line-height: 150%;
-    color: #404040;
+    color: #505050;
     padding: 0;
 }
