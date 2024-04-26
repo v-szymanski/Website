@@ -55,7 +55,7 @@
   border-radius: 20px; /* Adjust as needed for the desired roundness */
 
   font-family: 'Spline Sans', sans-serif;
-  font-size: 0.75em;
+  font-size: 0.9em;
   color: #404040; /* text color */
 }
 
@@ -83,7 +83,7 @@
   padding: 4px 16px; /* Adjust padding as needed */
   border-radius: 20px; /* Rounded corners */
   font-family: 'Spline Sans', sans serif;
-  font-size: 0.85em;
+  font-size: 1em;
   font-weight: 400;
 }
   

@@ -1,5 +1,5 @@
 p {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     color: #505050;
@@ -9,7 +9,7 @@ p {
 }
 
 h1 {
-    font-size: 2.5em;
+    font-size: 2.75em;
     font-family: 'DM Serif Display', cursive;
     font-weight: 400;
     color: #505050;
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-    font-size: 1.15em;
+    font-size: 1.35em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     color: #505050;
@@ -38,7 +38,7 @@ h3 {
 }
 
 h4 {
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     color: #505050;
@@ -48,7 +48,7 @@ h4 {
 }
 
 h5 {
-    font-size: 1em;
+    font-size: 1.25em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 600;
     color: #505050;
@@ -58,7 +58,7 @@ h5 {
 }
 
 h6 {
-    font-size: 0.8em;
+    font-size: 1em;
     font-family: 'DM Sans', sans-serif;
     font-weight: 700;
     letter-spacing: 0.25px;
