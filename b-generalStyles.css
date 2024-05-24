@@ -154,6 +154,27 @@ margin: 5vh 5vw;
     background-color: #d3d3d3;
 }
 
+.callout-blue {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: auto;
+    background-color: #ECF6FF;
+}
+
+.callout-orange {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: auto;
+    background-color: #fff8ec;
+}
 
 /* Footer */
 
