@@ -14,6 +14,7 @@
   height: auto;
   margin-right: 4vw; /* Spacing between image and content */
   border-radius: 12px;
+  content-visibility: auto; /* Only render when in viewport */
 }
 
 .card-content {
@@ -54,7 +55,7 @@
   line-height: normal; /* Reset line-height for tag content */
   border-radius: 20px; /* Adjust as needed for the desired roundness */
 
-  font-family: 'Spline Sans', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 0.9em;
   color: #404040; /* text color */
 }
@@ -82,7 +83,7 @@
   background-color: white;
   padding: 4px 16px; /* Adjust padding as needed */
   border-radius: 20px; /* Rounded corners */
-  font-family: 'Spline Sans', sans serif;
+  font-family: 'DM Sans', sans-serif;
   font-size: 1em;
   font-weight: 400;
 }

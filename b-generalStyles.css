@@ -75,6 +75,7 @@ margin: 5vh 5vw;
     height: auto;
     margin-top: 2vh;
     margin-bottom: 2vh;
+    content-visibility: auto; /* Only render when in viewport */
 }
 
 .about-pic {
@@ -174,6 +175,17 @@ margin: 5vh 5vw;
     margin-bottom: 2vh;
     width: auto;
     background-color: #fff8ec;
+}
+
+.callout-pink {
+    padding-top: 4vh;
+    padding-bottom: 4vh;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    width: auto;
+    background-color: #F9F3F3;
 }
 
 /* Footer */

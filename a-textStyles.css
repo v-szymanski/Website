@@ -10,7 +10,7 @@ p {
 
 h1 {
     font-size: 2.75em;
-    font-family: 'DM Serif Display', cursive;
+    font-family: 'DM Serif Display', sans-serif;
     font-weight: 400;
     color: #505050;
     margin-top: 0px;
@@ -19,7 +19,7 @@ h1 {
 
 h2 {
     font-size: 1.75em;
-    font-family: 'DM Serif Display', cursive;
+    font-family: 'DM Serif Display', sans-serif;
     font-weight: 400;
     letter-spacing: 0.25px;
     color: #505050;
