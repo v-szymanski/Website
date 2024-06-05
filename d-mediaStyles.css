@@ -1,4 +1,5 @@
 @media only screen and (max-width: 800px) { /*501-800*/
+    
     .container {
         background-image: none;
     }
@@ -83,12 +84,9 @@
 }
 
 @media only screen and (max-width: 500px) { /*mobile - smaller than an iPad*/
-    body {
-        overflow-x: auto; /* On mobile maybe should allow this just in case? */
-    }
-
+    
     a.nav-link {
-        font-size: 0.8em;
+        font-size: 0.85em;
     }
 
     li.nav-item {
@@ -146,6 +144,21 @@
 
     .projects-overview-landing-page {
         width: 75vw;
-        margin-top: 10vh;
+        margin-top: 50vh;
+    }
+
+    .callout-blue {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .callout-orange {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .callout-pink {
+        padding-left: 4vw;
+        padding-right: 4vw;
     }
 }

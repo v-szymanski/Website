@@ -101,17 +101,17 @@
 /* customized - diff button colors */
 .blue-btn {
   border: 1.5px solid #457DB0;
-  color: #457DB0;
+  color: #325B81;
 }
 
 .orange-btn {
   border: 1.5px solid #9E6B13;
-  color: #9E6B13;
+  color: #75500F;
 }
 
 .pink-btn {
   border: 1.5px solid #BB6F6F;
-  color: #BB6F6F;
+  color: #8B4141;
 }
 
 .blue-btn:hover {

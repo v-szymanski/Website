@@ -4,16 +4,17 @@ html {
 
 body {
     overflow-x: hidden; /* Prevent horizontal scrolling */
+    margin-left: 0px;
 }
 
 
 /* Case Study Pages */
   
 .row {
-display: grid;
-grid-template-columns: repeat(12, 1fr); /* Define 12 columns */
-gap: 5vw; /* Set gap between grid items */
-margin: 5vh 5vw;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr); /* Define 12 columns */
+    gap: 5vw; /* Set gap between grid items */
+    margin: 5vh 5vw;
 }
   
 /* Create columns that sit next to each other */
