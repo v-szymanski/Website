@@ -8,12 +8,12 @@
     top: 0; /* Stick to the top of the viewport */
     z-index: 1000;
 
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-left: 10vw;
+    padding-right: 10vw;
     padding-top: 2vh;
     padding-bottom: 2vh;
     height: 5vh;
-    width: 90vw;
+    width: 80vw;
 
     /* background-color: transparent; */
     background: rgba(255, 255, 255, 0.5); /* Background with opacity */

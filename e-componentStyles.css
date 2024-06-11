@@ -1,47 +1,147 @@
 /* CARDS */
-/* general card properties */
 .card {
   display: flex;
-  align-items: center; /* Vertically center content */
-  border-radius: 12px;
-  padding: 24px 24px;
+  align-items: top; /* Vertically center content */
+  justify-content: space-between; /* Ensure content is spaced between */
   height: fit-content;
-  margin-bottom: 10vh; /* Spacing between cards */
+  margin-bottom: 14vh; /* Spacing between cards */
+}
+
+.card-content {
+  flex: 1;
+  order: 1;
+  padding-right: 4vw;
 }
 
 .card img {
   width: 40%;
   height: auto;
-  margin-right: 4vw; /* Spacing between image and content */
+  order: 2;
   border-radius: 12px;
-  content-visibility: auto; /* Only render when in viewport */
+  object-fit: contain;
 }
 
-.card-content {
-  flex: 1; /* Take remaining space */
+.top-line {
+  width: 100%;
+  height: 4px;
+
+  margin-bottom: 24px;
 }
 
-/* customized - diff card colors */
-.blue-card {
-  background-color: #ECF6FF;
-  border: 0.1px solid #457DB0;
-  box-shadow: 2px 2px 5px #457DB0;
+.line-blue {
+  background-color: #457DB0;
 }
 
-.orange-card {
+.line-yellow {
+  background-color: #FFEB0F;
+}
+
+.line-orange {
+  background-color: #9E6B13;
+}
+
+.line-pink {
+  background-color: #BB6F6F;
+}
+
+.card-headline-text { /* TEXT DENOTING TYPE OF PROJECT  */
+  margin-bottom: 12px;
+}
+
+.card-description {
+  margin-bottom: 16px;
+  margin-top: 8px;
+}
+
+/* BUTTONS */
+.project-preview-btns {
+  display: inline-flex;
+  align-items: center;
+  vertical-align: center;
+  width: auto;
+  padding: 8px 16px; /* Adjust padding as needed */
+  margin-top: 12px;
+  color: #505050;
+  border: none;
+  border-radius: 20px; /* Rounded corners */
+
+  font-family: 'DM Serif Display', serif;
+  font-size: 1.25em;
+  font-weight: 400;
+}
+  
+.project-preview-btns span {
+  margin-right: 8px; /* Spacing between text and icon */
+}
+
+.project-preview-btns img {
+  width: 24px;
+  height: 24px;
+  margin-right: 0px;
+}
+
+.project-preview-btns:hover {
+  cursor: pointer;
+}
+
+/* Variant classes for different colors */
+.btn-blue {
+  background-color: #dcecf9;
+}
+.btn-blue:hover {
+  background-color: #c5e2fb;
+}
+
+.btn-yellow {
+  background-color: #FCF9D5;
+}
+.btn-yellow:hover {
+  background-color: #f8f2b0;
+}
+
+.btn-orange {
+  background-color: #FFF3DB;
+}
+.btn-orange:hover {
+  background-color: #f6e2c5;
+}
+
+.btn-pink {
+  background-color: #f7e9e9;
+}
+.btn-pink:hover {
+  background-color: #f4d7d7;
+  cursor: pointer;
+}
+
+/* Callout sections for key sentences in case studies */
+.callout {
+  padding-top: 4vh;
+  padding-bottom: 4vh;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
+  width: auto;
+}
+
+.callout-blue {
+  background-color: #dcecf9;
+}
+
+.callout-yellow {
+  background-color: #FCF9D5;
+}
+
+.callout-orange {
   background-color: #fff8ec;
-  border: 0.1px solid #9E6B13;
-  box-shadow: 2px 2px 5px #9E6B13;
 }
 
-.pink-card {
-  background-color: #F9F3F3;
-  border: 0.1px solid #BB6F6F;
-  box-shadow: 2px 2px 5px #BB6F6F;
+.callout-pink {
+  background-color: #f7e9e9;
 }
 
 /* TAGS */
-/* general tag properties */
 .tags {
   margin-bottom: 0px; /* Initial margin bottom */
   margin-top: 2vh;
@@ -60,71 +160,18 @@
   color: #404040; /* text color */
 }
 
-/* customized - diff tag colors */
-.blue-tag {
-  background-color: #C3DCF3; /* background color */
+.tag-blue {
+  background-color: #dcecf9; /* background color */
 }
 
-.orange-tag {
+.tag-yellow {
+  background-color: #FCF9D5; /* background color */
+}
+
+.tag-orange {
   background-color: #f6e2c5; /* background color */
 }
 
-.pink-tag {
-  background-color: #F6CEC5; /* background color */
-}
-
-/* BUTTONS */
-/* general button properties */
-.project-preview-btns {
-  display: inline-flex;
-  align-items: center;
-  vertical-align: center;
-  width: auto;
-  background-color: white;
-  padding: 4px 16px; /* Adjust padding as needed */
-  border-radius: 20px; /* Rounded corners */
-  font-family: 'DM Sans', sans-serif;
-  font-size: 1em;
-  font-weight: 400;
-}
-  
-.project-preview-btns span {
-  margin-right: 8px; /* Spacing between text and icon */
-}
-
-.project-preview-btns img {
-  width: 24px;
-  height: 24px;
-  margin-right: 0px;
-}
-
-/* customized - diff button colors */
-.blue-btn {
-  border: 1.5px solid #457DB0;
-  color: #325B81;
-}
-
-.orange-btn {
-  border: 1.5px solid #9E6B13;
-  color: #75500F;
-}
-
-.pink-btn {
-  border: 1.5px solid #BB6F6F;
-  color: #8B4141;
-}
-
-.blue-btn:hover {
-  box-shadow: 1px 1px 2px #457DB0;
-  cursor: pointer;
-}
-
-.orange-btn:hover {
-  box-shadow: 1px 1px 2px #9E6B13;
-  cursor: pointer;
-}
-
-.pink-btn:hover {
-  box-shadow: 1px 1px 2px #BB6F6F;
-  cursor: pointer;
+.tag-pink {
+  background-color: #f7e9e9; /* background color */
 }

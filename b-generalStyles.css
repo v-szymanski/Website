@@ -7,16 +7,16 @@ body {
     margin-left: 0px;
 }
 
-
 /* Case Study Pages */
   
 .row {
     display: grid;
     grid-template-columns: repeat(12, 1fr); /* Define 12 columns */
     gap: 5vw; /* Set gap between grid items */
-    margin: 5vh 5vw;
+    margin: 5vh 10vw;
 }
-  
+
+
 /* Create columns that sit next to each other */
 .whole-column {
     grid-column: span 12;
@@ -76,7 +76,6 @@ body {
     height: auto;
     margin-top: 2vh;
     margin-bottom: 2vh;
-    content-visibility: auto; /* Only render when in viewport */
 }
 
 .about-pic {
@@ -86,19 +85,11 @@ body {
     border-radius: 4px;
 }
 
-.chapter-link {
-    font-size: 1em;
-    font-family: 'Spline Sans', sans-serif;
-    font-weight: 500;
-    color: #848484;
-}
-
-
 
 /* Landing Page */
 
 .container {
-    background-image: url("/Images/Wave.svg");
+    background-image: url("/Images/Wave 2.svg");
     background-position: top right;
     height: 100vh;
     width: 100vw;
@@ -121,14 +112,14 @@ body {
 .left-column {
     flex: 1;
     width: 35vw;
-    padding-left: 5vw;
-    padding-right: 10vw;
+    padding-left: 10vw;
+    padding-right: 5vw;
 }
 
 .right-column {
     flex: 1;
-    padding-left: 10vw;
-    padding-right: 5vw;
+    padding-left: 20vw;
+    padding-right: 10vw;
     padding-top: 9vh;
 }
 
@@ -142,11 +133,10 @@ body {
 .projects-overview-landing-page {
     padding-top: 12vh;
     padding-bottom: 2vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
     margin-top: 9vh;
 }
-
 
 
 /* Separator line */
@@ -156,46 +146,14 @@ body {
     background-color: #d3d3d3;
 }
 
-.callout-blue {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: auto;
-    background-color: #ECF6FF;
-}
-
-.callout-orange {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: auto;
-    background-color: #fff8ec;
-}
-
-.callout-pink {
-    padding-top: 4vh;
-    padding-bottom: 4vh;
-    padding-left: 2vw;
-    padding-right: 2vw;
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    width: auto;
-    background-color: #F9F3F3;
-}
 
 /* Footer */
 
 .footer {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
-    padding-left: 5vw;
-    padding-right: 5vw;
+    padding-top: 8vh;
+    padding-bottom: 8vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
     width: 100%;
     background-color: #fff8ec;
 }

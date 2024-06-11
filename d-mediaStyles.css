@@ -11,24 +11,24 @@
 
     .left-column {
         width: 50vw;
-        padding-left: 5vw;
-        padding-right: none;
+        padding-left: 10vw;
+        padding-right: 0px;
     }
 
     .right-column {
-        padding-left: none;
-        padding-right: none;
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 
     .landing-pg-photo {
         min-width: 70%;
-        max-width: 90%;
+        max-width: 100%;
         height: auto;
         max-height: 50%;
     }
 
     .projects-overview-landing-page {
-        margin-top: -10vh;
+        margin-top: 0px;
     }
 
     h1 {
@@ -53,33 +53,63 @@
 
     .card {
         display: block;
-        width: 75vw;
-        padding: 5vw;
+        width: 100%;
+        padding: 5vh 0vw;
+    }
+
+    .card-border-blue {
+        border-top: 4px solid #457DB0;
+    }
+
+    .card-border-yellow {
+        border-top: 4px solid #FFEB0F;
+    }
+
+    .card-border-orange {
+        border-top: 4px solid #9E6B13;
+    }
+
+    .card-border-pink {
+        border-top: 4px solid #BB6F6F;
     }
 
     .card img { /* Beware this affects the button icons too */
         width: 100%;
         height: auto;
         margin-bottom: 20px;
+        margin-left: 0px;
         margin-right: 0px;
     }
       
     .card-content {
         width: 100%;
         height: auto;
+        padding-right: 0vw;
+    }
+
+    .top-line {
+        background-color: transparent;
+        margin-bottom: 0px;
     }
 
     .project-preview-btns {
-        display: inline-flex;
         width: fit-content;
-        align-items: center;
-        vertical-align: center;
     }
 
     .project-preview-btns img {
         width: 24px;
         height: 24px;
         margin-bottom: 0px;
+    }
+
+    .callout {
+        padding-left: 4vw;
+        padding-right: 4vw;
+    }
+
+    .footer {
+        padding-left: 10vw;
+        padding-right: 10vw;
     }
 }
 
@@ -91,6 +121,12 @@
 
     li.nav-item {
         margin-right: 16px;
+    }
+
+    .navbar {
+        padding-left: 10vw;
+        padding-right: 10vw;
+        width: 80vw;
     }
 
     /* case studies */
@@ -114,24 +150,22 @@
     
     /* landing page */
     .landing-page {
-        width: 75vw;
+        width: 75%;
         display: block;
-        padding-left: 5vw;
-        padding-right: 5vw;
-        padding-top: 15vw;
+        padding-top: 15%;
+        margin-left: 10%;
+        margin-right: 10%;
     }
     
     .left-column {
         width: 100%;
-        padding-left: none;
-        padding-right: none;
+        padding-left: 0px;
         flex: none;
     }
     
     .right-column {
         width: 100%;
-        padding-left: none;
-        padding-right: none;
+        padding-right: 0px;
         flex: none;
     }
     
@@ -143,22 +177,19 @@
     }
 
     .projects-overview-landing-page {
-        width: 75vw;
-        margin-top: 50vh;
+        width: 80%;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 100px;
     }
 
-    .callout-blue {
-        padding-left: 4vw;
-        padding-right: 4vw;
+    .card {
+        width: fill;
     }
 
-    .callout-orange {
-        padding-left: 4vw;
-        padding-right: 4vw;
-    }
-
-    .callout-pink {
-        padding-left: 4vw;
-        padding-right: 4vw;
+    .footer {
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 80%;
     }
 }
