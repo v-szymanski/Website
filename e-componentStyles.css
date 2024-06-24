@@ -23,25 +23,25 @@
 
 .top-line {
   width: 100%;
-  height: 4px;
+  height: 6px;
 
-  margin-bottom: 24px;
+  margin-bottom: 32px;
 }
 
 .line-blue {
-  background-color: #457DB0;
-}
-
-.line-yellow {
-  background-color: #FFEB0F;
+  background-color: #c5e2fb;
 }
 
 .line-orange {
-  background-color: #e9b266;
+  background-color: #fae7cb;
+}
+
+.line-yellow {
+  background-color: #FFF59E;
 }
 
 .line-pink {
-  background-color: #BB6F6F;
+  background-color: #f4d7d7;
 }
 
 .card-headline-text { /* TEXT DENOTING TYPE OF PROJECT  */
@@ -92,18 +92,18 @@
   background-color: #c5e2fb;
 }
 
-.btn-yellow {
-  background-color: #FCF9D5;
-}
-.btn-yellow:hover {
-  background-color: #f8f2b0;
-}
-
 .btn-orange {
   background-color: #fae7cb;
 }
 .btn-orange:hover {
   background-color: #f5dab5;
+}
+
+.btn-yellow {
+  background-color: #FFF9C1;
+}
+.btn-yellow:hover {
+  background-color: #FFF59E;
 }
 
 .btn-pink {
