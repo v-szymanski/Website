@@ -1,6 +1,6 @@
 p {
     font-size: 16px;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
     color: #505050;
     margin-top: 0px;
@@ -9,9 +9,10 @@ p {
 }
 
 h1 {
-    font-size: 2.75em;
-    font-family: 'DM Serif Display', sans-serif;
-    font-weight: 400;
+    font-size: 2.25em;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 600;
+    letter-spacing: 1px;
     color: #505050;
     margin-top: 0px;
     margin-bottom: 16px;
@@ -19,8 +20,8 @@ h1 {
 
 h2 {
     font-size: 1.75em;
-    font-family: 'DM Serif Display', sans-serif;
-    font-weight: 400;
+    font-family: 'Tenor Sans', sans-serif;
+    font-weight: 600;
     letter-spacing: 0.25px;
     color: #505050;
     margin-top: 0px;
@@ -28,8 +29,8 @@ h2 {
 }
 
 h3 {
-    font-size: 1.35em;
-    font-family: 'DM Sans', sans-serif;
+    font-size: 1.25em;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 600;
     color: #505050;
     margin-top: 0px;
@@ -38,8 +39,8 @@ h3 {
 }
 
 h4 {
-    font-size: 1.25em;
-    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
     color: #505050;
     margin-top: 0px;
@@ -48,8 +49,8 @@ h4 {
 }
 
 h5 {
-    font-size: 1.25em;
-    font-family: 'DM Sans', sans-serif;
+    font-size: 1em;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 600;
     color: #505050;
     margin-top: 0px;
@@ -59,7 +60,7 @@ h5 {
 
 h6 {
     font-size: 1em;
-    font-family: 'DM Sans', sans-serif;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 700;
     letter-spacing: 0.25px;
     text-transform: uppercase;
@@ -68,14 +69,19 @@ h6 {
     margin-bottom: 4px;
 }
 
+.highlight {
+    font-weight: 600;
+    color: #9E6B13;
+}
+
 .email-link {
     color: #505050; /* Set text color to #404040 */
 }
 
 ul {
     list-style-type: disc;
-    font-size: 14px;
-    font-family: 'DM Sans', sans-serif;
+    font-size: 16px;
+    font-family: 'Roboto Mono', sans-serif;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 4px;

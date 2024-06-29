@@ -65,9 +65,10 @@
   border: none;
   border-radius: 20px; /* Rounded corners */
 
-  font-family: 'DM Serif Display', serif;
-  font-size: 1.25em;
-  font-weight: 400;
+  font-family: 'Tenor Sans', sans-serif;
+  font-size: 1em;
+  font-weight: 600;
+  letter-spacing: 0.5px;
 }
   
 .project-preview-btns span {
@@ -155,8 +156,8 @@
   line-height: normal; /* Reset line-height for tag content */
   border-radius: 20px; /* Adjust as needed for the desired roundness */
 
-  font-family: 'DM Sans', sans-serif;
-  font-size: 0.9em;
+  font-family: 'Roboto Mono', sans-serif;
+  font-size: 0.8em;
   color: #404040; /* text color */
 }
 

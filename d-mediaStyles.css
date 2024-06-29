@@ -58,19 +58,19 @@
     }
 
     .card-border-blue {
-        border-top: 4px solid #457DB0;
+        border-top: 4px solid #c5e2fb;
     }
 
     .card-border-yellow {
-        border-top: 4px solid #FFEB0F;
+        border-top: 4px solid #FFF59E;
     }
 
     .card-border-orange {
-        border-top: 4px solid #9E6B13;
+        border-top: 4px solid #fae7cb;
     }
 
     .card-border-pink {
-        border-top: 4px solid #BB6F6F;
+        border-top: 4px solid #f4d7d7;
     }
 
     .card img { /* Beware this affects the button icons too */
