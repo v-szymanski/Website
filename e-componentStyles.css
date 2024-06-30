@@ -21,6 +21,9 @@
   object-fit: contain;
 }
 
+
+
+/* Line above each card description */
 .top-line {
   width: 100%;
   height: 6px;
@@ -44,7 +47,10 @@
   background-color: #f4d7d7;
 }
 
-.card-headline-text { /* TEXT DENOTING TYPE OF PROJECT  */
+
+
+/* TEXT DENOTING TYPE OF PROJECT  */
+.card-headline-text {
   margin-bottom: 12px;
 }
 
@@ -52,6 +58,8 @@
   margin-bottom: 16px;
   margin-top: 8px;
 }
+
+
 
 /* BUTTONS */
 .project-preview-btns {
@@ -85,6 +93,8 @@
   cursor: pointer;
 }
 
+
+
 /* Variant classes for different colors */
 .btn-blue {
   background-color: #dcecf9;
@@ -115,6 +125,8 @@
   cursor: pointer;
 }
 
+
+
 /* Callout sections for key sentences in case studies */
 .callout {
   padding-top: 4vh;
@@ -141,6 +153,13 @@
 .callout-pink {
   background-color: #f7e9e9;
 }
+
+.callout-text {
+  font-size: 1.25em;
+  margin-bottom: 8px;
+  line-height: 150%;
+}
+
 
 /* TAGS */
 .tags {
