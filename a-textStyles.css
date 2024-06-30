@@ -8,6 +8,10 @@ p {
     line-height: 150%;
 }
 
+p.small {
+    font-size: 14px;
+}
+
 h1 {
     font-size: 2.25em;
     font-family: 'Tenor Sans', sans-serif;
