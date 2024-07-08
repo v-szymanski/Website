@@ -176,3 +176,28 @@ body {
     max-width: 48px;
     padding-left: 0vw;
 }
+
+/* Loading animations */
+/* Define a keyframe animation for fading in */
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+      transform: translateY(20px); /* Optional: Start slightly below to enhance effect */
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Apply the fading in animation to elements with the fade-in class */
+  .fade-in {
+    opacity: 0; /* Start with opacity 0 */
+    transition: opacity 1s ease-out, transform 1s ease-out; /* Smooth transition */
+  }
+  
+  .fade-in.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  

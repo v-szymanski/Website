@@ -14,12 +14,9 @@ p.small {
 
 h1 {
     font-size: 2.25em;
-    font-family: 'Tenor Sans', sans-serif;
-    font-weight: 600;
-    letter-spacing: 1px;
+    font-family: 'Roboto Mono', sans-serif;
+    font-weight: 500;
     color: #505050;
-    margin-top: 0px;
-    margin-bottom: 16px;
 }
 
 h2 {
@@ -93,4 +90,13 @@ ul {
     line-height: 150%;
     color: #505050;
     padding: 0;
+}
+
+#typing-text-container {
+    height: 1.15em;
+}
+  
+#typing-text {
+    display: inline-block;
+    overflow: hidden;
 }
