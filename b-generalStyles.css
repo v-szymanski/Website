@@ -81,8 +81,28 @@ body {
 .about-pic {
     width: 100%;
     height: auto;
-    border: 1.5px solid #9E6B13;
     border-radius: 4px;
+}
+
+.carousel {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel img {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+}
+
+.carousel img.active {
+    opacity: 1;
+    position: relative;
 }
 
 
