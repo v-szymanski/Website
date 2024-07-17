@@ -105,6 +105,13 @@ body {
     position: relative;
 }
 
+.creative-pics {
+    width: 100%;
+    height: auto;
+    margin: 4vh 0vh;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
 
 /* Landing Page */
 

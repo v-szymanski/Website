@@ -71,9 +71,9 @@
   margin-top: 12px;
   color: #505050;
   border: none;
-  /* background-color: transparent;
-  border: 2px solid #505050; */
-  border-radius: 8px; /* Rounded corners */
+  background-color: transparent;
+  border: 2px solid #505050;
+  border-radius: 4px; /* Rounded corners */
 
   font-family: 'DM Sans', sans-serif;
   font-size: 1em;
@@ -99,7 +99,7 @@
 }
 
 /* Variant classes for different colors */
-.btn-blue {
+/* .btn-blue {
   background-color: #dcecf9;
 }
 .btn-blue:hover {
@@ -125,7 +125,7 @@
 }
 .btn-pink:hover {
   background-color: #f4d7d7;
-}
+} */
 
 
 
@@ -156,6 +156,8 @@
   background-color: #f7e9e9;
 }
 
+
+
 /* TAGS */
 .tags {
   margin-bottom: 0px; /* Initial margin bottom */
@@ -166,27 +168,31 @@
 .tag {
   display: inline-block;
   margin: 0 8px 8px 0; /* Margin between tags */
-  padding: 4px 12px;
+  padding: 4px 8px;
   line-height: normal; /* Reset line-height for tag content */
-  border-radius: 20px; /* Adjust as needed for the desired roundness */
+  border-radius: 4px;
 
-  font-family: 'Roboto Mono', sans-serif;
+  font-family: 'DM Sans', sans-serif;
+  letter-spacing: 0.5px;
   font-size: 14px;
-  color: #404040; /* text color */
 }
 
 .tag-blue {
-  background-color: #dcecf9; /* background color */
+  background-color: #dcecf9;
+  color: #194166;
 }
 
 .tag-yellow {
-  background-color: #FCF9D5; /* background color */
+  background-color: #FCF9D5;
+  color: #8a6d0f;
 }
 
 .tag-orange {
-  background-color: #f6e2c5; /* background color */
+  background-color: #f8eede;
+  color: #8A5D0F;
 }
 
 .tag-pink {
-  background-color: #f7e9e9; /* background color */
+  background-color: #f7e9e9;
+  color: #723d3d;
 }
