@@ -45,9 +45,10 @@ a.nav-link {
 
 a.nav-link:hover {
     opacity: 80%;
+    text-decoration: underline;
 }
 
 a.nav-link:focus,
 a.nav-link:active {
-    text-decoration: underline; /* Underline on active/click */
+    text-decoration: underline;
 }

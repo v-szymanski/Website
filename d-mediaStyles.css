@@ -124,7 +124,7 @@
 @media only screen and (max-width: 500px) { /*mobile - smaller than an iPad*/
     
     a.nav-link {
-        font-size: 0.8em;
+        font-size: 0.75em;
     }
 
     li.nav-item {

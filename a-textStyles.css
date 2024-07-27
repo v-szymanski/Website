@@ -79,16 +79,27 @@ h6 {
 }
 
 ul {
-    list-style-type: disc;
+    list-style-type: none;
     font-size: 16px;
     font-family: 'DM Sans', sans-serif;
     font-weight: 400;
     margin-top: 0px;
     margin-bottom: 4px;
-    margin-left: 16px;
     line-height: 175%;
     color: #505050;
     padding: 0;
+}
+
+.regular-list {
+    position: relative;
+    padding-left: 32px; /* Adjust as needed for more space */
+}
+
+.regular-list li::before {
+    content: "→";
+    position: absolute;
+    left: 0;
+    color: #505050; /* Ensure the arrow color matches the text color */
 }
 
 #typing-text-container {
