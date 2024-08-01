@@ -1,3 +1,109 @@
+@media only screen and (min-width: 2500px) { /*greater than 2500 - 4K TV*/
+
+    #typing-text-container {
+        height: 2.5em;
+    }
+
+    p {
+        font-size: 32px;
+    }
+    
+    p.small {
+        font-size: 24px;
+    }
+    
+    h1 {
+        font-size: 4em;
+        font-family: 'Roboto Mono', sans-serif;
+        font-weight: 500;
+        color: #606060;
+    }
+    
+    h2 {
+        font-size: 3em;
+        font-family: 'Roboto Mono', sans-serif;
+        font-weight: 500;
+        color: #505050;
+        margin-top: 0px;
+        margin-bottom: 16px;
+    }
+    
+    h3 {
+        font-size: 2.5em;
+        font-family: 'Roboto Mono', sans-serif;
+        font-weight: 600;
+        color: #505050;
+        margin-top: 0px;
+        margin-bottom: 12px;
+        line-height: 125%;
+    }
+    
+    h4 {
+        font-size: 2.251em;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 400;
+        color: #505050;
+        margin-top: 0px;
+        margin-bottom: 0px;
+        line-height: 150%;
+    }
+    
+    h5 {
+        font-size: 2.25em;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 600;
+        color: #505050;
+        margin-top: 0px;
+        margin-bottom: 4px;
+        line-height: 125%;
+    }
+    
+    h6 {
+        font-size: 2em;
+        font-family: 'DM Sans', sans-serif;
+        font-weight: 700;
+        letter-spacing: 0.25px;
+        text-transform: uppercase;
+        color: #848484;
+        margin-top: 0px;
+        margin-bottom: 4px;
+    }
+
+    ul {
+        font-size: 32px;
+    }
+
+    .project-preview-btns {
+        padding: 12px 40px; /* Adjust padding as needed */
+        margin-top: 24px;
+        border: 3px solid #505050;
+        border-radius: 12px; /* Rounded corners */
+        font-size: 2.5em;
+    }
+
+    .project-preview-btns img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .tag {
+        margin: 0 16px 16px 0; /* Margin between tags */
+        padding: 8px 16px;
+        letter-spacing: 0.75px;
+        font-size: 28px;
+    }
+
+    .footer-icons-list {
+        gap: 32px;
+    }
+
+    .footer-icon {
+        min-width: 64px;
+        height: auto;
+    }
+
+}
+
 @media only screen and (max-width: 1517px) { /*smaller than 1520*/
 
     #typing-text-container {
@@ -6,25 +112,25 @@
 
 }
 
-@media only screen and (max-width: 800px) { /*501-800*/
-    
+@media only screen and (max-width: 1024px) { /*big tablet to very small laptop?*/
     .container {
         background-image: none;
     }
 
     .landing-page {
-        height: fill;
-        margin-top: 9vh;
+        height: 95vh;
+        margin-top: 0vh;
     }
 
     .left-column {
-        width: 50vw;
+        width: 45vw;
         padding-left: 10vw;
         padding-right: 0px;
     }
 
     .right-column {
-        padding-left: 10vw;
+        width: 30vw;
+        padding-left: 5vw;
         padding-right: 10vw;
     }
 
@@ -34,6 +140,14 @@
         height: auto;
         max-height: 50%;
     }
+
+    .projects-overview-landing-page {
+        padding-top: 10vh;
+        margin-top: 5vh;
+    }
+}
+
+@media only screen and (max-width: 900px) { /*501-800 tablet*/
 
     .projects-overview-landing-page {
         margin-top: 0px;
@@ -121,14 +235,14 @@
     }
 }
 
-@media only screen and (max-width: 500px) { /*mobile - smaller than an iPad*/
+@media only screen and (max-width: 600px) { /*mobile - smaller than an iPad*/
     
     a.nav-link {
         font-size: 0.75em;
     }
 
     li.nav-item {
-        margin-right: 16px;
+        margin-right: 12px;
     }
 
     .navbar {
@@ -142,57 +256,48 @@
     .header-image {
         padding-bottom: 5vh;
     }
-
-    .row {
-        display: block;
-    }
-
-    .one-column {
-        padding-top: 0vh;
-    }
-    
-    .two-column {
-        flex: 100%;
-        padding-top: 0vh;
-    }
     
     /* landing page */
     .landing-page {
-        width: 75%;
+        width: 80vw;
+        height: auto;
         display: block;
-        padding-top: 15%;
-        margin-left: 10%;
-        margin-right: 10%;
+        margin-top: 15vh;
+        margin-left: 10vw;
+        margin-right: 10vw;
     }
     
     .left-column {
-        width: 100%;
+        width: 80vw;
         padding-left: 0px;
+        padding-right: 0px;
         flex: none;
     }
     
     .right-column {
-        width: 100%;
+        width: 80vw;
+        padding-left: 0px;
         padding-right: 0px;
         flex: none;
     }
     
     .landing-pg-photo {
         min-width: 50%;
-        max-width: 75%;
+        max-width: 100%;
         height: auto;
-        max-height: 50%;
+        max-height: 75vh;
     }
 
     .projects-overview-landing-page {
-        width: 80%;
-        margin-left: 10%;
-        margin-right: 10%;
-        margin-top: 200px;
+        width: 80vw;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-top: 10vh;
     }
 
     .card {
         width: fill;
+        margin-bottom: 10vh;
     }
 
     /* about page */
@@ -203,9 +308,6 @@
     .carousel {
         margin-bottom: 60px;
     }
-
-
-
 
     .footer {
         padding-left: 10%;
