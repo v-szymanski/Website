@@ -76,6 +76,7 @@ h6 {
 
 .email-link {
     color: #505050; /* Set text color to #404040 */
+    text-underline-offset: 4px;
 }
 
 ul {

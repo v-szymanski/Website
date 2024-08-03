@@ -46,6 +46,7 @@ a.nav-link {
 a.nav-link:hover {
     opacity: 80%;
     text-decoration: underline;
+    text-underline-offset: 4px;
 }
 
 a.nav-link:focus,
