@@ -31,6 +31,10 @@
   margin-bottom: 32px;
 }
 
+.line-purple {
+  background-color: #E9DAFF;
+}
+
 .line-blue {
   background-color: #c5e2fb;
 }
@@ -111,6 +115,10 @@
   width: auto;
 }
 
+.callout-purple {
+  background-color: #ede2fe;
+}
+
 .callout-blue {
   background-color: #dcecf9;
 }
@@ -146,6 +154,11 @@
   font-family: 'DM Sans', sans-serif;
   letter-spacing: 0.5px;
   font-size: 14px;
+}
+
+.tag-purple {
+  background-color: #ede2fe;
+  color: #3a2a53;
 }
 
 .tag-blue {
